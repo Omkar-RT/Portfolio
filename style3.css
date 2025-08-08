@@ -1,0 +1,141 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for content */
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: rgb(12, 12, 12);
+    border: 3px solid rgba(240, 8, 8, 0.938);
+    border-radius: 50px;
+    padding: 40px 60px;
+    max-width: 1200px;
+    width: 90%;
+}
+
+/* Profile image styling */
+
+.profile_image{
+    text-align: center;
+}
+.profile_image img{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    border: 4px solid rgba(228, 16, 97, 0.842);
+    border-radius: 50%;
+    object-fit: cover;
+    /* margin-right: 40px; */
+    position: relative;
+}
+
+/* Text info */
+
+h1{
+    font-size: 2rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+h1 span{
+    color: red;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+/* .tab{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+} */
+
+
+.tab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+} 
+
+.info{
+    background-color: rgb(24, 24, 24);
+    border: solid 2px;
+    max-width: 700px;
+    padding: 10px 15px;
+    text-align: center;
+    border: solid 2px;
+    border-color: rgb(228, 1, 1);
+    border-radius: 20px;
+}
+
+
+.skills{
+    width: 140px;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(241, 8, 55);
+    background-color: rgb(24, 24, 24);
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.skills h4{
+    margin-top: 15px;
+}
+
+.Links{
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    flex-direction: column;
+    gap: 18px;
+    width: 130px;
+    padding: 10px 15px;
+    text-align: center ;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(241, 8, 55);
+}
+
+.Links .b1{
+    height: auto;
+    background-color: black;
+    font-size: 22px;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(82, 82, 82);
+    margin-top: 10px;
+}
+
+.Links .b2{
+    height: auto;
+    font-size: 23px;
+    border: solid 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(31, 31, 31);
+    border-color: rgb(82, 82, 82);
+}
+.Links span{
+    color: aqua;
+}
